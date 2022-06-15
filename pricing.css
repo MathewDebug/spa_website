@@ -1,0 +1,38 @@
+img {
+  width: 250px;
+  height: 250px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.row {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  display: block;
+}
+
+.buy {
+  margin-bottom: 50px;
+}
+
+h2 {
+  font-family: 'Lobster', cursive;
+}
+
+h1 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.863);
+  font-family: 'Courgette', cursive;
+}
+
+button {
+  padding: 2px 30px 2px 30px;
+  background-color: rgb(173, 173, 173);
+  color: white;
+  border: solid thin rgb(107, 107, 107);
+}

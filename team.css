@@ -1,0 +1,82 @@
+/* Team */
+.team{
+  background-image:url("https://4kwallpaper.wiki/wp-content/uploads/2019/09/76998.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  padding-bottom: 60px;
+}
+
+.team h1 {
+  padding-top: 20px;
+}
+
+.team .row{
+  text-align:center;
+}
+
+.team img{
+  margin-top: 20px;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: thin solid black;
+  object-fit: cover;
+  color: lightgray;
+}
+
+.team h3{
+  font-family: 'Gabriela', serif;
+  font-weight:1000;
+  font-size:35px;
+}
+
+.team h4{
+  font-family: 'Timmana', sans-serif;
+  font-weight:500;
+  font-size:25px;
+}
+
+.team p{
+  font-family: 'Prociono', serif;
+  font-weight:500;
+  font-size:20px;
+}
+
+/* Trusted By */
+.trusted {
+  padding-top: 20px;
+  background-image:url("https://4kwallpaper.wiki/wp-content/uploads/2019/09/76998.jpg");
+  background-repeat:off;
+}
+
+.trusted .row{
+  text-align:center;
+}
+
+.trusted img{
+   margin-top: 20px;
+  height: 300px;
+  width: 450px;
+  background-color:white;
+  color: lightgray;
+}
+
+.trusted h3 {
+  font-family: 'Timmana', sans-serif;
+  font-weight:800;
+  padding-top:30px;
+}
+
+.trusted p{
+  font-family: 'Inknut Antiqua', serif;
+  font-size:20px;
+  padding-bottom:10px;
+}
+
+.team h1 {
+  font-family: 'Courgette', cursive;
+}
+
+.trusted h1 {
+  font-family: 'Courgette', cursive;
+}

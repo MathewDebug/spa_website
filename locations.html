@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!-- Custom CSS -->
+      <link href="index.css" rel="stylesheet" type="text/css" />
+      <link href="navbar.css" rel="stylesheet" type="text/css" />
+      <link href="Footer.css" rel="stylesheet" type="text/css" />
+
+      <!-- Load Bootstrap CSS -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+      <!-- Friconix Icons -->
+      <script defer src="https://friconix.com/cdn/friconix.js"> </script>
+      <style>
+      .map {
+        overflow:hidden;
+        padding-bottom:56.25%;
+        position:relative;
+        height:0;
+      }
+      iframe{
+        left:0;
+        top:0;
+        height:100%;
+        width:100%;
+        position:absolute;
+      }
+      </style>
+    </head>
+    <body>
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Highlight Spa</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pricing.html">Buy</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Locations
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="locations.html">Uptown</a>
+                <a class="dropdown-item" href="locations.html">Downtown</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="locations.html">All Locations</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="team.html">About Us</a>
+            </li>
+          </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+
+      <!-- Map -->
+      <div class = "map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d3023.84950219541!2d-73.99786928441493!3d40.721329434944444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e3!4m0!4m5!1s0x89c25987e7860bf7%3A0xa520539320fb5759!2si%20Beauty%20Spa%2C%20246%20Grand%20St%2C%20New%20York%2C%20NY%2010002!3m2!1d40.718381!2d-73.99415069999999!5e0!3m2!1sen!2sus!4v1588920589714!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      </div>
+
+      <!-- Footer Section -->
+      <section class = "footer">
+          <div class = "row">
+            <div class = "col-md-3 text-center">
+              <h4 class="text-center">Contacts</h4>
+                <i class="fi-xnsuxl-home-small-solid"></i><p><strong>Address</strong></p>
+                  <p>15 S Henry St, Pearl River, NY, 10965</p>
+                <i class="fi-xwsuxl-envelope-solid"></i> <p><strong>Email</strong></p>
+                  <p>highlightspa@gmail.com</p>
+                <i class="fi-cnsrxl-phone-solid"></i><p><strong>Phone Number</strong></p>
+                  <p>(206) 517-7874</p>
+            </div>
+
+            <div class = "col-md-3 text-center">
+              <h4 class="text-center">About</h4>
+                <i class="fi-xnsuhl-user-lock-solid"></i><p><strong><a href="">Privacy</a></strong></p>
+                <i class="fi-cwluxl-check"></i><p><strong><a href="">Terms and Conditions</a></strong></p>
+            </div>
+            
+            <div class= "col-md-3 text-center">
+              <h4 class="text-center">Social Media</h4>
+                <i class="fi-cnluxl-facebook-circle"></i><p><strong><a href="https://www.facebook.com/">Our Facebook</a></strong></p>
+                <i class="fi-cnsuxl-twitter"></i><p><strong><a href="https://twitter.com/explore">Our Twitter</a></strong></p>
+                <i class="fi-cnsuxl-linkedin"></i><p><strong><a href="https://www.linkedin.com/">Our LinkedIn</a></strong></p>
+            </div>
+
+            <div class = "col-md-3 text-center">
+              <h4 class="text-center">Connect With Us</h4>
+                <div class="input-group input-group-lg">
+                  <textarea class="form-control" placeholder="Enter your email to subscribe and receive deals!"></textarea>                
+                  <button class="btn btn-lg">Submit</button>
+                </div>
+            </div>
+          </div>
+       </section>
+    </body>
+  </html>

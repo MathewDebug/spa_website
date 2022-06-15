@@ -1,0 +1,60 @@
+/* Footer */
+.footer {
+  background:url("Pictures/footer-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size:15px;
+  border-top:solid thin black;
+  padding-top: 20px;
+}
+
+.footer h4{
+  font-size:30px;
+  font-weight:20;
+  margin-bottom:20px;
+}
+
+.footer i{
+  color:black;
+  size:120%;
+  padding:7px 7px 7px 7px;
+  background-color:rgb(231, 179, 46);
+  border-radius:50%;
+}
+
+.footer p{
+  margin-top:0px;
+  margin-bottom:10px;
+}
+
+.footer strong{
+  margin-top:5x;
+  margin-bottom:0px;
+}
+
+.footer a{
+  color:inherit;
+}
+
+.footer .btn{
+  width:100%;
+  background-color:blanchedalmond;
+  margin-top:20px;
+  margin-right:10px;
+  margin-left:10px;
+  margin-bottom:20px;
+}
+
+.footer .btn:hover{
+  background-color:chocolate !important;
+  color: white;
+}
+
+.footer .btn {
+  transition: background-color 0.5s ease;
+}
+
+/* Global */
+.row, .col-md-6 {
+  width: 100%;
+}
